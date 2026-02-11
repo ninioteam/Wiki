@@ -99,6 +99,9 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
         <br>
         <p>Understanding some of the lights can be confusing, but the interactive graphic below can help. Just click on a panel light, it's that simple.</p>
         <br>
+        
+        <input type="text" id="alarmSearch" placeholder="Search alarms..." autocomplete="off">
+        <br><br>
 
         <details class="details">
             <summary class="summary">Condenser Coolant Panel</summary>
@@ -555,7 +558,7 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
             <p>To resolve, increase feedwater pump speeds, or enable more feedwater pumps. Make sure to mirror your changes with condensate pumps.</p>
         </div>
         <div id="feed-overpressure">
-            <p>This alert indicates that the feedwater circuit is overpressureized.</p>
+            <p>This alert indicates that the feedwater circuit is overpressurized.</p>
         </div>
         <div id="feed-cavitation">
             <p>This alert indicates that the feedwater pumps are cavitating.</p>
@@ -819,5 +822,6 @@ cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palet
   </footer>
 
   <script src="js/script.js" defer></script>
+  <script src="js/alarmsearch.js" defer></script>
 </body>
 </html>

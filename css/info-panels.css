@@ -170,3 +170,35 @@
     border-top: 1px solid rgba(128,199,255,0.18);
     margin: 0.5em 0 1em 0;
 }
+
+#alarmSearch {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #1a1a1a;
+  color: #fff;
+  min-width: 200px;
+  max-width: 100%;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+#alarmSearch:focus {
+  border-color: #3fa9f5;
+  box-shadow: 0 0 5px rgba(63, 169, 245, 0.5);
+}
+
+#alarmSearch {
+  background-image: url('data:image/svg+xml;utf8,<svg fill="%23ccc" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 14C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+  background-size: 1rem;
+  padding-right: 2.5rem;
+}
+
+.search-highlight {
+    outline: 3px solid rgb(255, 255, 255);
+    transition: outline 0.3s ease;
+}
